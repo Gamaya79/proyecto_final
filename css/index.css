@@ -1,0 +1,55 @@
+header{
+    background: coral;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-item{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+main{
+    background-image: url(../img/artur-solarz-iq-knUC21j4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-item a{
+    color: black;
+    background: azure;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;  
+    border-color: brown;
+}
+
+.menu-item a:hover{
+    background-color: #eb6969;
+}
+
+.form{
+    width: auto;
+    height: auto;
+}
+
+footer{
+    background-color: #eb6969;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagen{
+    width: 100px;
+}
+
+.redes{
+    width: 40px;
+}
+
+.mates{
+    width: 150px;
+    margin-left: 50px;
+}

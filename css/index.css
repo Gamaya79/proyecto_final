@@ -4,30 +4,7 @@ header{
     padding: 10px;
 }
 
-nav{
-    list-style-type: none;
-}
 
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: #333;
-    justify-content: center;
-}
-
-nav ul a{
-    display: flex;
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-nav ul :hover{
-    color: coral;
-}
 
 main{
     background-color:yellow;

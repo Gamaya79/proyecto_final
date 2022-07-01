@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid-sass": "node-sass --include-path scss sass/index.scss css/traslated.css",
+    "watch-sass": "nodemon -e scss -x \"npm run bulid-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gamaya79/proyecto_final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gamaya79/proyecto_final/issues"
+  },
+  "homepage": "https://github.com/Gamaya79/proyecto_final#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
+}

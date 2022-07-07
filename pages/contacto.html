@@ -1,57 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="../assets/logomarmi.png" sizes="16x16">
     <link rel="stylesheet" href="../css/index.css">
-    <title>Document</title>
+	<title>Mates Marmi</title>
 </head>
-<body class="body">
-    <header>
-        <h1 class="titulo">Mates Artesanales</h1>
-        <nav class="menu">
-            <ul>
-                <li class="menu-item">
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li class="menu-item">
-                    <a href="mates.html">Mates</a>
-                </li>
-                <li class="menu-item">
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="menu-item">
-                    <a href="otros.html">Otros</a>
-                </li>
-                <li class="menu-item">
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Mates Marmi</h2>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium autem, repellendus accusamus minima nemo, voluptate excepturi illum dolor eius quo corporis ducimus numquam! Eius itaque nam hic illum eum?</p>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium autem, repellendus accusamus minima nemo, voluptate excepturi illum dolor eius quo corporis ducimus numquam! Eius itaque nam hic illum eum?</p>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium autem, repellendus accusamus minima nemo, voluptate excepturi illum dolor eius quo corporis ducimus numquam! Eius itaque nam hic illum eum?</p>
-            <img class="imagen" src="../img/michal-warzecha-lsnMqqLKV7A-unsplash.jpg" alt="mate">
-        </section>
-        <section>
-            <form action="submit">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="password" name="password" id="password" placeholder="password">
-                <input type="email" name="email" id="email" placeholder="email">
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Comentarios"></textarea>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <img class="redes" src="../img/facebook_icon-icons.com_59205.png" alt="Facebook">
-        <img class="redes" src="../img/Instagram_icon-icons.com_66804.png" alt="Instagram">
-        <img class="redes" src="../img/whatsapp_socialnetwork_17360.png" alt="Whatsapp">
-    </footer>
-    
+<body>
+	<header>
+		<img class="logo" src="../assets/logomarmi.png" alt="logo mates marmi">
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="../index.html" class="nav__enlace">Inicio</a>
+				</li>
+				<li class="nav__item">
+					<a href="../pages/mates.html" class="nav__enlace">Mates</a>
+				</li>
+				<li class="nav__item">
+					<a href="../pages/canastos.html" class="nav__enlace">Canastos</a>
+				</li>
+				<li class="nav__item">
+					<a href="../pages/receta.html" class="nav__enlace">Receta</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__enlace">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+	</header>	
+	<main class="main-container">
+		<form class="form">
+			<div class="form__container">
+				<h1 class="form__title">Contacto</h1>
+				<input type="text" class="form__imput" placeholder="Nombre">
+				<input type="email" class="form__imput" placeholder="Email">
+				<textarea class="form__imput form__imput--message" placeholder="Mensaje"></textarea>
+				<input type="submit" class="form__cta" value="Enviar">
+			</div>
+		</form>
+	</main>
+	<footer class="footer">
+		<img class="redes" src="../img/instagram-square-brands.svg" alt="Instagram">
+		<img class="redes" src="../img/facebook-square-brands.svg" alt="facebook">
+		<img class="redes" src="../img/whatsapp-square-brands.svg" alt="whatsapp">
+	</footer>
 </body>
 </html>
